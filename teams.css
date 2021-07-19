@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    box-sizing: border-box;
+}
+nav{
+    margin-top: -3%;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-bottom: -3%;
+    background-color: skyblue;
+    box-shadow: 0 0 5px snow;
+}
+nav > h1{
+    font-family: 'Lobster', cursive;
+    display: inline-block;
+    background-color: #0082c8;
+    background-image: linear-gradient(45deg, red, blue,rgb(214, 41, 41));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.myButton {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Brush Script MT;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 18px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 3px;
+    transform: translate(50px,-10px);
+}
+.myButton:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#teamInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0;
+    border-radius: 50px;
+}
+#teamLogo>img{
+    width: 230px;
+    height: 230px;
+    filter: drop-shadow( 10px 5px 4px black);
+
+}
+#teamLogo{
+    display: flex;
+    justify-content: space-around;
+   
+}
+#detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+#bestbat,#bestbowl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+#bestbat > img{
+    filter: drop-shadow( 8px 2px 4px black);
+}
+#bestbowl > img{
+    filter: drop-shadow( 8px 2px 4px black);
+}
+
+main{
+    padding-top: 3%;
+}
+#inputTaker {
+    background-color: rgba(173, 216, 230, 0.884);
+    box-shadow: 0 0 5px black;
+    position: absolute;
+    text-align: start;
+    width: 10%;
+    min-width: 300px;
+    padding: 1%;
+    padding-bottom: 15px;
+    right: 8%;
+    top: 12vh;
+    display: none;
+    z-index: 10;
+}
+#inputTaker > div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+#inputTaker > div > input{
+width: 90%;
+border: 0;
+outline: 0;
+font-size: 18px;
+}
+#inputTaker > div > label{
+    font-size: 18px;
+}
+#inputTaker > div:nth-of-type(7){
+    display: flex;
+    align-items: center;
+}
+ #inputTaker > div > button {
+        font-size: 18px;
+        border-radius: 10px;
+        border: 0;
+        margin-top: 3px;
+        width: 50%;
+        color: rgb(26, 73, 92);
+        background-color: skyblue;
+}
+
+
+#cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2%;
+}
+#cardContainer > div {
+    width: 23%;
+    max-height:400px; 
+    margin-bottom: 3%;
+    box-shadow: 0 0 5px black;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    overflow: hidden;
+}
+#cardContainer > div:hover{
+    box-shadow: 0 0 5px whitesmoke;
+}
+.imgC {
+    width: 100%;
+    border-top-left-radius: 50px;
+}
+.imgC > img {
+    width: 100%;
+    max-height: 450px;
+    border-top-left-radius: 50px;
+    filter: drop-shadow( 8px 2px 4px black);
+}
+#best{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info {
+    width: 100%;
+    margin-top: 0;
+    padding: 2%;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.808);
+    border-bottom-right-radius: 50px;
+    letter-spacing: 2px;
+    z-index: 15;
+}
+.info > h4 {
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 22px;
+}
+.info > h5 {
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+
+footer{
+    background-color: blanchedalmond;
+    height: 10vh;
+    display: grid;
+    place-items: center;
+}
+
+
+ @media (max-width:940px){
+    #teamInfo{
+        flex-direction: column;
+    }
+    #best{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #cardContainer > div {
+        width: 30%;
+     }
+   
+} 
+
+@media (max-width:768px){
+   #cardContainer > div {
+       width: 40%;
+    }
+}
+
+@media (max-width:585px){
+    #cardContainer > div{
+         width: 45%;
+         margin: 0 auto;
+         margin-bottom:5% ;
+     }
+ }
+ @media (max-width:470px){
+    #teamLogo{
+        flex-direction: column;
+    }
+    #best{
+        flex-direction: column;
+    }
+    #cardContainer > div{
+        width: 85%;
+    }
+ }
+
+
