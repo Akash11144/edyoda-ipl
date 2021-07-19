@@ -153,12 +153,7 @@ $('#addP').on(
 
                                                     $(card).click((e)=>
                                                     {
-                                                        let re=e.delegateTarget.children[1].firstElementChild.innerText
-                                                        for(let i=0;i<tarr.length;i++)
-                                                            if(re==tarr[i].name){
-                                                             localStorage.setItem("team2Player",JSON.stringify(tarr[i]));
-                                                             window.open("page3.html","_self")
-                                                            }
+                                                        window.open("teams.html","_self");
                                                         
                                                     })
                                                 
