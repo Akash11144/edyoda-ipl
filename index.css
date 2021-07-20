@@ -179,6 +179,7 @@ font-size: 18px;
 .imgC {
     height: 300px;
     padding: 10px 10px 0px 10px;
+    filter: drop-shadow(10px 5px 4px black);
 }
 .imgC > img {
     width: 100%;

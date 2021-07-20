@@ -64,11 +64,12 @@ h2,h3{
     font-family: 'Yomogi', cursive;
 }
 footer{
-    width: 100%;
+    width: 101%;
     background-color: blanchedalmond;
     height: 10vh;
     display: grid;
     place-items: center;
+    margin-left: -1%;
 }
 @media (max-width:880px){
     #division{
