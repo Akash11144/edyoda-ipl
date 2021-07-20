@@ -424,7 +424,7 @@ var players = [
         logo: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Mumbai_Indians_Logo.svg/1200px-Mumbai_Indians_Logo.svg.png"
     },
     {
-        name: "Quibton de Kock",
+        name: "Quinton de Kock",
         photo: "https://static.iplt20.com/players/210/834.png",
         team: "Mumbai Indians",
         price: "RS 50 Million",
@@ -852,7 +852,7 @@ var players = [
     {
         name: "Kane Williamson",
         photo: "https://static.iplt20.com/players/210/440.png",
-        team: "Sunrisers Hyderabad ",
+        team: "Sunrisers Hyderabad",
         price: "Rs 70 Million",
         playingStatus: "playing",
         Role: "Batsman",
@@ -861,7 +861,7 @@ var players = [
     {
         name: "David Warner",
         photo: "https://static.iplt20.com/players/210/170.png",
-        team: "Sunrisers Hyderabad ",
+        team: "Sunrisers Hyderabad",
         price: "Rs 50 Million",
         playingStatus: "playing",
         Role: "Batsman",
@@ -870,7 +870,7 @@ var players = [
     {
         name: "Kedar JAdhav",
         photo: "https://static.iplt20.com/players/210/297.png",
-        team: "Sunrisers Hyderabad ",
+        team: "Sunrisers Hyderabad",
         price: "RS 40 Million",
         playingStatus: "playing",
         Role: "Batsman",
@@ -879,7 +879,7 @@ var players = [
     {
         name: "Jonny Bairstow",
         photo: "https://static.iplt20.com/players/210/506.png",
-        team: "Sunrisers Hyderabad ",
+        team: "Sunrisers Hyderabad",
         price: "RS 20 Million",
         playingStatus: "playing",
         Role: "Batsman",
@@ -888,7 +888,7 @@ var players = [
     {
         name: "Manish Pandey",
         photo: "https://static.iplt20.com/players/210/123.png",
-        team: "Sunrisers Hyderabad ",
+        team: "Sunrisers Hyderabad",
         price: " Rs 40 Million",
         playingStatus: "playing",
         Role: "Batsman",
@@ -897,7 +897,7 @@ var players = [
     {
         name: "Vijay Shankar",
         photo: "https://static.iplt20.com/players/210/1083.png",
-        team: "Sunrisers Hyderabad ",
+        team: "Sunrisers Hyderabad",
         price: "Rs 10  Million",
         playingStatus: "playing",
         Role: "All-Rounder",
@@ -906,7 +906,7 @@ var players = [
     {
         name: "JAson Holder",
         photo: "https://static.iplt20.com/players/210/1075.png",
-        team: "Sunrisers Hyderabad ",
+        team: "Sunrisers Hyderabad",
         price: "Rs 5 million",
         playingStatus: "playing",
         Role: "All-Rounder",
@@ -915,7 +915,7 @@ var players = [
     {
         name: "BAsil Thampi",
         photo: "https://static.iplt20.com/players/210/3825.png",
-        team: "Sunrisers Hyderabad ",
+        team: "Sunrisers Hyderabad",
         price: "Rs 3 Million",
         playingStatus: "playing",
         Role: "Bowler",
@@ -924,7 +924,7 @@ var players = [
     {
         name: "Bhuvneshwar Kumar",
         photo: "https://static.iplt20.com/players/210/116.png",
-        team: "Sunrisers Hyderabad ",
+        team: "Sunrisers Hyderabad",
         price: "Rs 5 Million",
         playingStatus: "playing",
         Role: "Bowler",
@@ -933,7 +933,7 @@ var players = [
     {
         name: "Siddharth Kaul",
         photo: "https://static.iplt20.com/players/210/1086.png",
-        team: "Sunrisers Hyderabad ",
+        team: "Sunrisers Hyderabad",
         price: "Rs 0.8 Million",
         playingStatus: "playing",
         Role: "Bowler",
@@ -942,7 +942,7 @@ var players = [
     {
         name: "T Natarajan",
         photo: "https://static.iplt20.com/players/210/3831.png",
-        team: "Sunrisers Hyderabad ",
+        team: "Sunrisers Hyderabad",
         price: "Rs 0.5 Million",
         playingStatus: "playing",
         Role: "Bowler",
@@ -951,7 +951,7 @@ var players = [
     {
         name: "Shabaz Nadeem",
         photo: "https://static.iplt20.com/players/210/57.png",
-        team: "Sunrisers Hyderabad ",
+        team: "Sunrisers Hyderabad",
         price: "Rs 0.3 Million",
         playingStatus: "On-bench",
         Role: "Bowler",
