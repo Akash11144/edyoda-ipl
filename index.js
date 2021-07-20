@@ -998,7 +998,6 @@ $(document).ready(function () {
             'blur': () => $('#searchedP').css({ "display": "none" }),
             'keyup': (e) =>
              {
-              
                 if (e.keyCode == 13)
                  {
                     $('#searchedP').css({ "display": "block" })
