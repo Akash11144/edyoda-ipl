@@ -123,6 +123,7 @@ nav > div:nth-of-type(3) {
     right: 50%;
     top: 10vh;
     display: none;
+    z-index: 15;
 }
 #inputTaker > div{
     display: flex;
